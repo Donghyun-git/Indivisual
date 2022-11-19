@@ -1,0 +1,1563 @@
+{
+    "v": "4.8.0",
+    "meta": {
+        "g": "LottieFiles AE 3.0.2",
+        "a": "",
+        "k": "",
+        "d": "",
+        "tc": ""
+    },
+    "fr": 29.9700012207031,
+    "ip": 0,
+    "op": 90.0000036657751,
+    "w": 460,
+    "h": 260,
+    "nm": "scenario_graphic",
+    "ddd": 0,
+    "assets": [
+        {
+            "id": "image_0",
+            "w": 93,
+            "h": 104,
+            "u": "",
+            "p": "data:image/png;base64,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",
+            "e": 1
+        },
+        {
+            "id": "image_1",
+            "w": 284,
+            "h": 181,
+            "u": "",
+            "p": "data:image/png;base64,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",
+            "e": 1
+        }
+    ],
+    "layers": [
+        {
+            "ddd": 0,
+            "ind": 1,
+            "ty": 4,
+            "nm": "Layer 4 윤곽선",
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "i": {
+                                "x": [
+                                    0.833
+                                ],
+                                "y": [
+                                    0.833
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.167
+                                ],
+                                "y": [
+                                    0.167
+                                ]
+                            },
+                            "t": 66,
+                            "s": [
+                                60
+                            ]
+                        },
+                        {
+                            "t": 77.0000031362743,
+                            "s": [
+                                100
+                            ]
+                        }
+                    ],
+                    "ix": 11
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        333.49,
+                        180.788,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "a": {
+                    "a": 0,
+                    "k": [
+                        56.307,
+                        51.811,
+                        0
+                    ],
+                    "ix": 1
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "ix": 6
+                }
+            },
+            "ao": 0,
+            "shapes": [
+                {
+                    "ty": "gr",
+                    "it": [
+                        {
+                            "ind": 0,
+                            "ty": "sh",
+                            "ix": 1,
+                            "ks": {
+                                "a": 0,
+                                "k": {
+                                    "i": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "o": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "v": [
+                                        [
+                                            42.072,
+                                            42.072
+                                        ],
+                                        [
+                                            42.072,
+                                            -42.072
+                                        ],
+                                        [
+                                            -42.072,
+                                            -42.072
+                                        ],
+                                        [
+                                            -42.072,
+                                            42.072
+                                        ]
+                                    ],
+                                    "c": true
+                                },
+                                "ix": 2
+                            },
+                            "nm": "패스 1",
+                            "mn": "ADBE Vector Shape - Group",
+                            "hd": false
+                        },
+                        {
+                            "ty": "gs",
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 9
+                            },
+                            "w": {
+                                "a": 0,
+                                "k": 6,
+                                "ix": 10
+                            },
+                            "g": {
+                                "p": 2,
+                                "k": {
+                                    "a": 0,
+                                    "k": [
+                                        0,
+                                        1,
+                                        0.7450980392156863,
+                                        0.29411764705882354,
+                                        1,
+                                        1,
+                                        0.12156862745098039,
+                                        0.6470588235294118
+                                    ],
+                                    "ix": 8
+                                }
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 4
+                            },
+                            "e": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    0
+                                ],
+                                "ix": 5
+                            },
+                            "t": 1,
+                            "lc": 1,
+                            "lj": 1,
+                            "ml": 4,
+                            "ml2": {
+                                "a": 0,
+                                "k": 4,
+                                "ix": 13
+                            },
+                            "bm": 0,
+                            "nm": "그라디언트 선 1",
+                            "mn": "ADBE Vector Graphic - G-Stroke",
+                            "hd": false
+                        },
+                        {
+                            "ty": "tr",
+                            "p": {
+                                "a": 0,
+                                "k": [
+                                    55.104,
+                                    52.196
+                                ],
+                                "ix": 2
+                            },
+                            "a": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 1
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    100
+                                ],
+                                "ix": 3
+                            },
+                            "r": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 6
+                            },
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 7
+                            },
+                            "sk": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 4
+                            },
+                            "sa": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 5
+                            },
+                            "nm": "변형"
+                        }
+                    ],
+                    "nm": "그룹 1",
+                    "np": 2,
+                    "cix": 2,
+                    "bm": 0,
+                    "ix": 1,
+                    "mn": "ADBE Vector Group",
+                    "hd": false
+                },
+                {
+                    "ty": "gr",
+                    "it": [
+                        {
+                            "ind": 0,
+                            "ty": "sh",
+                            "ix": 1,
+                            "ks": {
+                                "a": 0,
+                                "k": {
+                                    "i": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            -0.591,
+                                            0.89
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "o": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0.749,
+                                            0.761
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "v": [
+                                        [
+                                            -26.307,
+                                            -1.044
+                                        ],
+                                        [
+                                            -4.585,
+                                            21.049
+                                        ],
+                                        [
+                                            -1.986,
+                                            20.801
+                                        ],
+                                        [
+                                            26.307,
+                                            -21.811
+                                        ]
+                                    ],
+                                    "c": false
+                                },
+                                "ix": 2
+                            },
+                            "nm": "패스 1",
+                            "mn": "ADBE Vector Shape - Group",
+                            "hd": false
+                        },
+                        {
+                            "ty": "gs",
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 9
+                            },
+                            "w": {
+                                "a": 0,
+                                "k": 12,
+                                "ix": 10
+                            },
+                            "g": {
+                                "p": 2,
+                                "k": {
+                                    "a": 0,
+                                    "k": [
+                                        0,
+                                        1,
+                                        0.7450980392156863,
+                                        0.29411764705882354,
+                                        1,
+                                        1,
+                                        0.12156862745098039,
+                                        0.6470588235294118
+                                    ],
+                                    "ix": 8
+                                }
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 4
+                            },
+                            "e": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    0
+                                ],
+                                "ix": 5
+                            },
+                            "t": 1,
+                            "lc": 1,
+                            "lj": 1,
+                            "ml": 4,
+                            "ml2": {
+                                "a": 0,
+                                "k": 4,
+                                "ix": 13
+                            },
+                            "bm": 0,
+                            "nm": "그라디언트 선 1",
+                            "mn": "ADBE Vector Graphic - G-Stroke",
+                            "hd": false
+                        },
+                        {
+                            "ty": "tr",
+                            "p": {
+                                "a": 0,
+                                "k": [
+                                    56.307,
+                                    51.811
+                                ],
+                                "ix": 2
+                            },
+                            "a": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 1
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    100
+                                ],
+                                "ix": 3
+                            },
+                            "r": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 6
+                            },
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 7
+                            },
+                            "sk": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 4
+                            },
+                            "sa": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 5
+                            },
+                            "nm": "변형"
+                        }
+                    ],
+                    "nm": "그룹 2",
+                    "np": 2,
+                    "cix": 2,
+                    "bm": 0,
+                    "ix": 2,
+                    "mn": "ADBE Vector Group",
+                    "hd": false
+                },
+                {
+                    "ty": "tm",
+                    "s": {
+                        "a": 1,
+                        "k": [
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 0,
+                                "s": [
+                                    100
+                                ]
+                            },
+                            {
+                                "t": 57.0000023216576,
+                                "s": [
+                                    0
+                                ]
+                            }
+                        ],
+                        "ix": 1
+                    },
+                    "e": {
+                        "a": 1,
+                        "k": [
+                            {
+                                "i": {
+                                    "x": [
+                                        0.667
+                                    ],
+                                    "y": [
+                                        1
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.333
+                                    ],
+                                    "y": [
+                                        0
+                                    ]
+                                },
+                                "t": 0,
+                                "s": [
+                                    0
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.595
+                                    ],
+                                    "y": [
+                                        20.363
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.163
+                                    ],
+                                    "y": [
+                                        0
+                                    ]
+                                },
+                                "t": 57,
+                                "s": [
+                                    100
+                                ]
+                            },
+                            {
+                                "t": 89.0000036250443,
+                                "s": [
+                                    100
+                                ]
+                            }
+                        ],
+                        "ix": 2
+                    },
+                    "o": {
+                        "a": 1,
+                        "k": [
+                            {
+                                "i": {
+                                    "x": [
+                                        0.667
+                                    ],
+                                    "y": [
+                                        1
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.333
+                                    ],
+                                    "y": [
+                                        0
+                                    ]
+                                },
+                                "t": 0,
+                                "s": [
+                                    0
+                                ]
+                            },
+                            {
+                                "t": 89.0000036250443,
+                                "s": [
+                                    180
+                                ]
+                            }
+                        ],
+                        "ix": 3
+                    },
+                    "m": 2,
+                    "ix": 3,
+                    "nm": "패스 다듬어 자르기 1",
+                    "mn": "ADBE Vector Filter - Trim",
+                    "hd": false
+                }
+            ],
+            "ip": 0,
+            "op": 90.0000036657751,
+            "st": 0,
+            "bm": 0
+        },
+        {
+            "ddd": 0,
+            "ind": 3,
+            "ty": 2,
+            "nm": "Layer 3",
+            "refId": "image_0",
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 0,
+                            "s": [
+                                60
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 46,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 75,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "t": 89.0000036250443,
+                            "s": [
+                                60
+                            ]
+                        }
+                    ],
+                    "ix": 11
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        127.714,
+                        84.084,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "a": {
+                    "a": 0,
+                    "k": [
+                        46.314,
+                        51.572,
+                        0
+                    ],
+                    "ix": 1
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "ix": 6
+                }
+            },
+            "ao": 0,
+            "ip": 0,
+            "op": 90.0000036657751,
+            "st": 0,
+            "bm": 0
+        },
+        {
+            "ddd": 0,
+            "ind": 4,
+            "ty": 2,
+            "nm": "Layer 5/scenario_graphic.ai",
+            "cl": "ai",
+            "refId": "image_1",
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 0,
+                            "s": [
+                                60
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 46,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.667
+                                ],
+                                "y": [
+                                    1
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.333
+                                ],
+                                "y": [
+                                    0
+                                ]
+                            },
+                            "t": 75,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "t": 89.0000036250443,
+                            "s": [
+                                60
+                            ]
+                        }
+                    ],
+                    "ix": 11
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        230,
+                        130,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "a": {
+                    "a": 0,
+                    "k": [
+                        142,
+                        90.5,
+                        0
+                    ],
+                    "ix": 1
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "ix": 6
+                }
+            },
+            "ao": 0,
+            "ip": 0,
+            "op": 90.0000036657751,
+            "st": 0,
+            "bm": 0
+        },
+        {
+            "ddd": 0,
+            "ind": 5,
+            "ty": 4,
+            "nm": "Layer 1 윤곽선",
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "i": {
+                                "x": [
+                                    0.833
+                                ],
+                                "y": [
+                                    0.833
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.167
+                                ],
+                                "y": [
+                                    0.167
+                                ]
+                            },
+                            "t": 0,
+                            "s": [
+                                60
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.833
+                                ],
+                                "y": [
+                                    0.833
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.167
+                                ],
+                                "y": [
+                                    0.167
+                                ]
+                            },
+                            "t": 10,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "i": {
+                                "x": [
+                                    0.833
+                                ],
+                                "y": [
+                                    0.833
+                                ]
+                            },
+                            "o": {
+                                "x": [
+                                    0.167
+                                ],
+                                "y": [
+                                    0.167
+                                ]
+                            },
+                            "t": 81,
+                            "s": [
+                                100
+                            ]
+                        },
+                        {
+                            "t": 89.0000036250443,
+                            "s": [
+                                60
+                            ]
+                        }
+                    ],
+                    "ix": 11
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        230,
+                        131.627,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "a": {
+                    "a": 0,
+                    "k": [
+                        117.287,
+                        67.862,
+                        0
+                    ],
+                    "ix": 1
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "ix": 6
+                }
+            },
+            "ao": 0,
+            "shapes": [
+                {
+                    "ty": "gr",
+                    "it": [
+                        {
+                            "ind": 0,
+                            "ty": "sh",
+                            "ix": 1,
+                            "ks": {
+                                "a": 0,
+                                "k": {
+                                    "i": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "o": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "v": [
+                                        [
+                                            -102.287,
+                                            -10.971
+                                        ],
+                                        [
+                                            -102.287,
+                                            14.544
+                                        ],
+                                        [
+                                            -67.285,
+                                            14.544
+                                        ],
+                                        [
+                                            -67.285,
+                                            52.863
+                                        ],
+                                        [
+                                            -35.002,
+                                            52.863
+                                        ],
+                                        [
+                                            -35.002,
+                                            14.544
+                                        ],
+                                        [
+                                            0,
+                                            14.544
+                                        ],
+                                        [
+                                            0,
+                                            -17.861
+                                        ],
+                                        [
+                                            35.002,
+                                            -17.861
+                                        ],
+                                        [
+                                            35.002,
+                                            -52.801
+                                        ],
+                                        [
+                                            67.285,
+                                            -52.863
+                                        ],
+                                        [
+                                            67.285,
+                                            -17.861
+                                        ],
+                                        [
+                                            102.287,
+                                            -17.861
+                                        ],
+                                        [
+                                            102.287,
+                                            7.475
+                                        ]
+                                    ],
+                                    "c": false
+                                },
+                                "ix": 2
+                            },
+                            "nm": "패스 1",
+                            "mn": "ADBE Vector Shape - Group",
+                            "hd": false
+                        },
+                        {
+                            "ty": "gs",
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 9
+                            },
+                            "w": {
+                                "a": 0,
+                                "k": 5,
+                                "ix": 10
+                            },
+                            "g": {
+                                "p": 2,
+                                "k": {
+                                    "a": 0,
+                                    "k": [
+                                        0,
+                                        1,
+                                        0.7450980392156863,
+                                        0.29411764705882354,
+                                        1,
+                                        1,
+                                        0.12156862745098039,
+                                        0.6470588235294118
+                                    ],
+                                    "ix": 8
+                                }
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 4
+                            },
+                            "e": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    0
+                                ],
+                                "ix": 5
+                            },
+                            "t": 1,
+                            "lc": 1,
+                            "lj": 1,
+                            "ml": 4,
+                            "ml2": {
+                                "a": 0,
+                                "k": 4,
+                                "ix": 13
+                            },
+                            "bm": 0,
+                            "nm": "그라디언트 선 1",
+                            "mn": "ADBE Vector Graphic - G-Stroke",
+                            "hd": false
+                        },
+                        {
+                            "ty": "tr",
+                            "p": {
+                                "a": 0,
+                                "k": [
+                                    117.287,
+                                    67.863
+                                ],
+                                "ix": 2
+                            },
+                            "a": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 1
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    100,
+                                    100
+                                ],
+                                "ix": 3
+                            },
+                            "r": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 6
+                            },
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 7
+                            },
+                            "sk": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 4
+                            },
+                            "sa": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 5
+                            },
+                            "nm": "변형"
+                        }
+                    ],
+                    "nm": "그룹 1",
+                    "np": 2,
+                    "cix": 2,
+                    "bm": 0,
+                    "ix": 1,
+                    "mn": "ADBE Vector Group",
+                    "hd": false
+                },
+                {
+                    "ty": "tm",
+                    "s": {
+                        "a": 0,
+                        "k": 0,
+                        "ix": 1
+                    },
+                    "e": {
+                        "a": 1,
+                        "k": [
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 5,
+                                "s": [
+                                    0
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 10,
+                                "s": [
+                                    6
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 20,
+                                "s": [
+                                    6
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 21,
+                                "s": [
+                                    22.6
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 25,
+                                "s": [
+                                    30
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 35,
+                                "s": [
+                                    47
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 40,
+                                "s": [
+                                    55
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 50,
+                                "s": [
+                                    71
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 55,
+                                "s": [
+                                    78
+                                ]
+                            },
+                            {
+                                "i": {
+                                    "x": [
+                                        0.833
+                                    ],
+                                    "y": [
+                                        0.833
+                                    ]
+                                },
+                                "o": {
+                                    "x": [
+                                        0.167
+                                    ],
+                                    "y": [
+                                        0.167
+                                    ]
+                                },
+                                "t": 66,
+                                "s": [
+                                    94
+                                ]
+                            },
+                            {
+                                "t": 71.0000028918893,
+                                "s": [
+                                    100
+                                ]
+                            }
+                        ],
+                        "ix": 2
+                    },
+                    "o": {
+                        "a": 0,
+                        "k": 0,
+                        "ix": 3
+                    },
+                    "m": 1,
+                    "ix": 2,
+                    "nm": "패스 다듬어 자르기 1",
+                    "mn": "ADBE Vector Filter - Trim",
+                    "hd": false
+                }
+            ],
+            "ip": 0,
+            "op": 90.0000036657751,
+            "st": 0,
+            "bm": 1
+        }
+    ],
+    "markers": []
+}
