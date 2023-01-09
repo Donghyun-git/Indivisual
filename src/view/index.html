@@ -29,11 +29,11 @@
 
     <!-- layout2 animation-->
     <div class="swiper-slide" style="position:relative;">
-      <lottie-player id="background" style="position: absolute; width: 100%; height: 100%; z-index: 1;" src="../public/json/page2.json" background="transparent" speed="0.7" autoplay></lottie-player>
-      <lottie-player id="background_btm" style=" position: absolute; top: 150px; width: 100%; height: 100%; z-index: 1;" src="../public/json/tryitnow.json" background="transparent" speed="0.4" loop autoplay></lottie-player>  
+      <!-- <lottie-player id="background" style="position: absolute; width: 100%; height: 100%; z-index: 1;" src="../public/json/page2.json" background="transparent" speed="0.7" autoplay></lottie-player>
+      <lottie-player id="background_btm" style=" position: absolute; top: 150px; width: 100%; height: 100%; z-index: 1;" src="../public/json/tryitnow.json" background="transparent" speed="0.4" loop autoplay></lottie-player>   -->
       <div id="wrap">
-          <div id="inner">
-            <div class="animation">
+
+            <!-- <div class="animation">
               <h1 id="ani_tit"><span class="ani_logo indi">INDI:</span><span class="ani_logo visual">VISUAL</span></h1>
             <div class="info_area">
               <ul class="info_list">
@@ -45,9 +45,30 @@
                 <li><p>개인, 협력 <br> 그리고 도전</p></li>
               </ul>
                </div>
-               
-            </div> 
-        </div>
+            </div>  -->
+
+            <!-- mobile -->
+            <div id="header">
+              <div class="row">
+                 <div class="header_tit">
+                <h1><span class="indi_logo">INDI:</span><span class="visual_logo">VISUAL</span></h1>
+              </div>
+              </div>
+            </div>
+
+            <div id="section">
+              <div class="row">
+                <p class="info">
+                  독립되었다는 뜻의 "INDIE"와 시각을 뜻하는 "VISUAL"을 합치며 <br> "individual"의 개성있다는 의미와 동음어로 <br> 각각의 개성을 시각적으로 표현한다는 의미를 담았다.
+                </p>
+              </div>
+            </div>
+
+            <div id="footer">
+              <div class="row">
+                <h3>Try it NOW.</h3>
+              </div>
+            </div>
       </div>
     </div>
             
@@ -55,7 +76,7 @@
     <div class="swiper-slide">
         <div id="wrap">
           <div id="inner">
-            <h1 class="list_tit">Process</h1>
+            <h1 class="list_tit">PROCESS</h1>
               <h2 class="list_subtit">UX Design</h2>
             <ul class="list mt30">
               <li>
@@ -324,7 +345,7 @@
       autoHeight: "true",
       slidesPerView: 1,
       spaceBetween: 0,
-      mousewheel: false,
+      mousewheel: true,
       speed: 1000,
       pagination: {
         el: ".swiper-pagination",
