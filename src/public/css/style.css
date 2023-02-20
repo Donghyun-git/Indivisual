@@ -68,9 +68,9 @@ body { background: #ccc; }
 
 
 /* Project_slide*/
-
+.project-mobile { display: none;}
 .pj_header { display: flex; justify-content: flex-start; padding: 0 96px;}
-.pj_tit { display: inline-block; color: #fff; font-size: 16px;}
+.pj_tit { display: inline-block; color: #fff; font-size: 2em;}
 .pj_subtit { display: inline-block; color: #fff; font-size: 2em; padding-left: 20px;}
 .project { margin: 0 auto;}
 .project .pj_list { display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; }
@@ -84,6 +84,7 @@ body { background: #ccc; }
 .ps_tit { display: inline-block; color: #fff; font-size: 2em; padding: 0 0 24px 0;}
 .ps_subtit { display: inline-block; color: #d0d0d0; font-size: 2em; padding: 3px 0 21px 20px; font-weight: 400; font-family: 'LeferiPoint-WhiteObliqueA';}
 .personal { margin: 0 auto;}
+.personal-mobile { display: none;}
 .personal .ps_list { display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; width: 996px; margin: 0 auto;}
 .personal .ps_list li { padding: 6px 6px; text-align: left; color: #fff;}
 .personal .ps_list li h3 { padding: 12px 0 6px 0; font-size: 12px;}
@@ -166,7 +167,7 @@ body { background: #ccc; }
 }
 
 .swiper-slide {
-    background: #1d1d1d;
+    background: #4a4a4a;
     margin: 0 auto;
     text-align: center;
 }
@@ -226,8 +227,8 @@ body { background: #ccc; }
 
     /* 로고 */
     .main_tit { padding: 20px 0; margin-left: 20px;}
-    .visual_logo { font-size: 42px; font-weight: bold;}
-    .indi_logo { font-size: 42px; font-weight: bold;}
+    .visual_logo { font-size: 36px; font-weight: bold;}
+    .indi_logo { font-size: 36px; font-weight: bold;}
 
     /* info */
     .header_tit { position: relative; margin-top: 125px; z-index: 100; }
@@ -303,21 +304,23 @@ body { background: #ccc; }
     .pm_small ul li img { width: 72px; height: 72px; }
 
     /* Personal_slide */
-    .ps_header { padding: 0;}
-    .ps_tit { font-size: 22px; padding:0; }
-    .ps_subtit { font-size: 20px; }
-    .personal .ps_list { flex-direction: column; flex-wrap: wrap; width: 240px; margin: 0;}
-    .personal .ps_list li { padding: 7px 6px; text-align: left; width: 240px;}
-    .personal .ps_list li:nth-child(3), .personal .ps_list li:nth-child(4), .personal .ps_list li:nth-child(5), 
-    .personal .ps_list li:nth-child(6), .personal .ps_list li:nth-child(7), .personal .ps_list li:last-child { display: none;}
-    .personal .ps_list li h3 { padding: 12px 0 6px 0; font-size: 16px;}
-    .personal .ps_list li p { font-size: 7px; padding-top: 12px;}
-    .personal .ps_list li img { width: 240px; height: 190px; }
+    .ps_header { padding: 0 0 0 3px; }
+    .ps_tit { font-size: 16px; }
+    .ps_subtit { display: none;}
+    .personal { display: none;}
+    .personal-mobile { width: 320px; display: block; text-align: left;}
+    .personal-mobile .personal-row { display: flex; justify-content: center; flex-wrap: wrap;  padding: 0 3px; }
+    .personal-row div:nth-child(odd) { margin-right: 6px;}
+    .personal-row div { margin-bottom: 24px;}
+    .personal-mobile img { width: 152px; height: 152px;  }
+    .personal-mobile h5 { font-size: 16px; margin: 6px 0 3px 0;}
+    .personal-mobile p { font-size: 9px;}
 
     /* footer */
     .inner_footer { padding: 20px 0 0 0 !important;}
-    .contents { width: 98%; margin: 0 1%; height: 100vh;}
-    .footer_cont p { font-size: 9px; line-height: 3;}
+    .footer_tit { margin: 9px 0 36px 25px;}
+    .contents { width: 100%; height: 100vh; border: none; margin-top: 36px;}
+    .footer_cont p { font-size: 9px; line-height: 2;}
     .footer_cont p b { font-size: 12px;}
     .footer_cont .footer_list { margin-top: 5rem !important;}
     .footer_cont .footer_list li { padding: 0 5px; font-size: 14px; font-weight: 300;}
@@ -330,11 +333,7 @@ body { background: #ccc; }
     
 
     /* 연락처 배너 */
-    .footer_fix .up, .footer_fix .right { float: none;}
-    .footer_fix li:before { width: 0; }
-    .footer_fix.mobile ul { display: flex; flex-wrap: wrap; flex-direction: row;}
-    
-
+    .footer_fix.mobile { position:fixed; bottom: 0; }
     .footer_tbcont.mobile { display: flex;}
     
     .footer_tbcont.mobile .footer_thead.mobile { width: 39%; font-size: 9px;}
