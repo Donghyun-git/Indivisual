@@ -318,13 +318,14 @@ body { background: #ccc; }
 
     /* footer */
     .inner_footer { padding: 20px 0 0 0 !important;}
-    .footer_tit { margin: 9px 0 36px 25px;}
-    .contents { width: 100%; height: 100vh; border: none; margin-top: 36px;}
-    .footer_cont p { font-size: 9px; line-height: 2;}
-    .footer_cont p b { font-size: 12px;}
-    
     .footer_tbcont { display: none;}
-    
+    .footer_tit { margin: 9px 0 36px 25px;}
+    .contents { width: 100%; height: 100vh; border: none; margin-top: 36px; }
+    .footer_cont h5 { font-size: 12px; font-weight: lighter; margin-bottom: 24px;}
+    .footer_cont h5 b { font-size: 16px;}
+    .footer_cont p { font-size: 10px; font-weight: lighter; line-height: 1.5; text-align: left; padding: 0 14px; }
+    .footer_cont .footer_list { margin-top: 72px; display: flex; flex-wrap: nowrap;}
+    .footer_cont .footer_list li { font-size: 14px; font-weight: lighter; text-align: left; padding: 0; width: 88px;}
 
     /* 연락처 배너 */
     .footer_fix.mobile { position:fixed; bottom: 0; }
