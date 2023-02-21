@@ -106,7 +106,7 @@ body { background: #ccc; }
 .footer_tb ul li:first-child { font-size: 16px; font-weight: 700;}
 
 .footer_tbcont { display: flex; justify-content: center;}
-
+.footer_mobile_tbcont { display: none;}
 /* 푸터 리스트 공통 */
 .footer_tbcont ul li { padding: 5px 40px; border-bottom: 1px solid rgb(225, 211, 211); border-bottom: 1px solid rgba(252, 252, 252, 0.5); -webkit-background-clip: padding-box; /* for Safari */ background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */}
 
@@ -121,7 +121,7 @@ body { background: #ccc; }
 .footer_tbcont .footer_tbbody2 li:first-child { border-style: none; font-weight: 700; font-size: 17px;}
 
 .footer_fix { overflow: hidden; position: absolute; bottom: 0; width: 100%; color: #fff; z-index: 100;  text-align: center; padding: 30px 50px; background-color: rgb(103, 94, 94); z-index: 10000;}
-  
+.footer_fix.mobile { display: none;}
 .footer_fix ul li { position: relative; display: inline; padding: 0 15px;  white-space: nowrap; font-size: 10px; float: left; }
 .footer_fix ul li strong { padding-right: 7px;}
 .footer_fix ul li a { color: #fff;}
@@ -330,6 +330,7 @@ body { background: #ccc; }
     .footer-mobile-tbcont { display: flex;}
 
     /* footer table contents */
+    .footer_mobile_tbcont { display: block;}
     .footer_mobile_tbcont { font-size: 10px; font-weight: 300; letter-spacing: 0;}
     .footer_mobile_tbcont .ws { padding: 72px 15px 0 15px;}
     .footer_mobile_tbcont .ws ul { border-bottom: 1px solid #DEDEDE; text-align: left; }
@@ -343,7 +344,9 @@ body { background: #ccc; }
     .footer_mobile_tbcont .ws ul .li4 { padding-right: 0; padding-left: 40px;}
 
     /* 연락처 배너 */
+    .footer_fix.mobile { display: block;}
     .footer_fix.pc { display: none;}
+    .info_list_mobile { display: block;}
     .footer_fix ul li { float: none; display: block; padding: 0;}
     .footer_fix .ws { padding: 12px 56px 29px 24px; text-align: left;}
     .footer_fix.mobile { position:fixed; bottom: 0; padding: 0;}
