@@ -325,14 +325,19 @@ body { background: #ccc; }
     .footer_cont h5 b { font-size: 16px;}
     .footer_cont p { font-size: 10px; font-weight: lighter; line-height: 1.5; text-align: left; padding: 0 14px; }
     .footer_cont .footer_list { margin-top: 72px; display: flex; flex-wrap: nowrap;}
-    .footer_cont .footer_list li { font-size: 14px; font-weight: lighter; text-align: left; padding: 0; width: 88px;}
+    .footer_cont .footer_list li { font-size: 14px; font-weight: lighter; text-align: left; padding: 0;  letter-spacing: 0;}
+    .footer_cont .footer_list li:nth-child(2) { margin: 0 25px 0 24px;}
+    .footer-mobile-tbcont { display: flex;}
 
     /* 연락처 배너 */
-    .footer_fix.mobile { position:fixed; bottom: 0; }
-    .footer-mobile-tbcont { display: flex;}
+    .footer_fix ul li { float: none; display: block; padding: 0;}
+    .footer_fix .ws { padding: 12px 56px 29px 24px;}
+    .footer_fix.mobile { position:fixed; bottom: 0; padding: 0;}
+    .footer_fix.mobile ul { display: flex; justify-content: center; flex-wrap: nowrap; font-size: 8px; font-weight: 300;}
+    .footer_fix.mobile ul li { padding-left: 24px;}
+    .footer_fix.mobile ul li b { padding-right: 4px;}
+    .footer_fix li:before { display: none;}
     
-    .footer_tbcont.mobile .footer_thead.mobile { width: 39%; font-size: 9px;}
-    .footer_tbcont.mobile .footer_tbody.mobile { width: 61%; font-size: 9px;}
 }
 
     
