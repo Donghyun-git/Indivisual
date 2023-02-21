@@ -329,13 +329,31 @@ body { background: #ccc; }
     .footer_cont .footer_list li:nth-child(2) { margin: 0 25px 0 24px;}
     .footer-mobile-tbcont { display: flex;}
 
+    /* footer table contents */
+    .footer_mobile_tbcont { font-size: 10px; font-weight: 300; letter-spacing: 0;}
+    .footer_mobile_tbcont .ws { padding: 72px 15px 0 15px;}
+    .footer_mobile_tbcont .ws ul { border-bottom: 1px solid #DEDEDE; text-align: left; }
+    .footer_mobile_tbcont .ws ul:last-child{border: none;}
+    .footer_mobile_tbcont .ws ul li { display: inline-block; padding: 12px 0 12px 14px;}
+    .footer_mobile_tbcont .ws ul:first-child li:first-child { padding-top: 0; padding-bottom: 0;}
+    .footer_mobile_tbcont .ws ul:nth-child(2) li:first-child { padding-left: 18px; }
+    .footer_mobile_tbcont .ws ul .li1 { padding-left: 123px;}
+    .footer_mobile_tbcont .ws ul .li2 { padding-left: 116px;}
+    .footer_mobile_tbcont .ws ul .li3 { padding-left: 113px;}
+    .footer_mobile_tbcont .ws ul .li4 { padding-right: 0; padding-left: 40px;}
+
     /* 연락처 배너 */
+    .footer_fix.pc { display: none;}
     .footer_fix ul li { float: none; display: block; padding: 0;}
-    .footer_fix .ws { padding: 12px 56px 29px 24px;}
+    .footer_fix .ws { padding: 12px 56px 29px 24px; text-align: left;}
     .footer_fix.mobile { position:fixed; bottom: 0; padding: 0;}
-    .footer_fix.mobile ul { display: flex; justify-content: center; flex-wrap: nowrap; font-size: 8px; font-weight: 300;}
+    .footer_fix.mobile .ws div { margin-bottom: 12px; }
+    .footer_fix.mobile .ws div:last-child { margin: 0; }
+    .footer_fix.mobile h5 { font-size: 8px; color: #999999; font-weight: 300; }
+    .footer_fix.mobile ul { display: flex; justify-content: flex-start; flex-wrap: nowrap; font-size: 8px; font-weight: 300;}
     .footer_fix.mobile ul li { padding-left: 24px;}
     .footer_fix.mobile ul li b { padding-right: 4px;}
+    .footer_fix.mobile ul li:first-child{ padding: 0;}
     .footer_fix li:before { display: none;}
     
 }
