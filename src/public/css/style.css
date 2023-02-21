@@ -340,7 +340,7 @@ body { background: #ccc; }
     .footer_mobile_tbcont .ws ul .li1 { padding-left: 123px;}
     .footer_mobile_tbcont .ws ul .li2 { padding-left: 116px;}
     .footer_mobile_tbcont .ws ul .li3 { padding-left: 113px;}
-    .footer_mobile_tbcont .ws ul .li4 { padding-right: 0; padding-left: 47px;}
+    .footer_mobile_tbcont .ws ul .li4 { padding-right: 0; padding-left: 40px;}
 
     /* 연락처 배너 */
     .footer_fix.pc { display: none;}
