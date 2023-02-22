@@ -99,7 +99,7 @@ body { background: #ccc; }
 .inner_footer h1 { margin-bottom: 36px;}
 .footer_cont h5 { margin-bottom: 20px;}
 .footer_cont h5 b { font-size: 20px; }
-.footer_cont p { font-size: 14px;}
+.footer_cont p { font-size: 14px; padding: 0 78px;}
 .footer_cont p b { font-size: 29px;}
 .footer_cont .footer_list { display: flex; flex-direction: row; justify-content: center; margin: 42px 0;}
 .footer_cont .footer_list li { padding: 20px 30px; font-size: 20px; font-weight: 300;}
@@ -124,10 +124,23 @@ body { background: #ccc; }
 .footer_tbcont .footer_tbbody1 li:first-child { border-style: none; padding-right: 25rem; font-weight: 700; font-size: 17px;}
 .footer_tbcont .footer_tbbody2 li:first-child { border-style: none; font-weight: 700; font-size: 17px;}
 
+
+/* footer contact */
+
 .footer_fix { overflow: hidden; position: fixed; bottom: 0; width: 100%; color: #fff; z-index: 100;  text-align: center; padding: 30px 50px; background-color: rgb(103, 94, 94); z-index: 10000;}
 .footer_fix.mobile { display: none;}
 .footer_tbcont.mobile { display: none;}
 .footer_fix .footer_mobile { display: none;}
+.footer_fix ul li { float: none; display: block; padding: 0;}
+.footer_fix.pc .ws { padding: 29px 56px 29px 24px; text-align: center;}
+.footer_fix.pc { position:fixed; bottom: 0; padding: 0;}
+.footer_fix.pc .ws div { margin-bottom: 12px; }
+.footer_fix.pc .ws div:last-child { margin: 0; }
+.footer_fix.pc h5 { font-size: 8px; color: #999999; font-weight: 300; }
+.footer_fix.pc ul { display: flex; justify-content: center; flex-wrap: nowrap; font-size: 12px; font-weight: 400;}
+.footer_fix.pc ul li { padding-left: 24px; margin: 0 36px;}
+.footer_fix.pc ul li b { padding-right: 4px;}
+.footer_fix.pc ul li:first-child{ padding: 0;}
 
 
 /* ------------------------------------------------------------ */
@@ -332,6 +345,7 @@ body { background: #ccc; }
 
     /* 연락처 배너 */
     .footer_fix.mobile { display: block;}
+    .footer_fix.mobile .info.mobile a { color: #fff;}
     .footer_fix.pc { display: none;}
     .info_list_mobile { display: block;}
     .footer_fix ul li { float: none; display: block; padding: 0;}
@@ -344,7 +358,7 @@ body { background: #ccc; }
     .footer_fix.mobile ul li { padding-left: 24px;}
     .footer_fix.mobile ul li b { padding-right: 4px;}
     .footer_fix.mobile ul li:first-child{ padding: 0;}
-    .footer_fix li:before { display: none;}
+    .footer_fix li:before { display: none;}    
     
 }
 
