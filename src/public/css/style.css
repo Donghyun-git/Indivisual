@@ -271,18 +271,7 @@ body { background: #ccc; }
     /* animation slide */
     #background, #background_btm { display: none;}
 
-    .animation { color: #fff; display: inline-block; width: 100%; z-index: 1;}
-    .animation h1 { text-align: left; padding-left: 43px;}
-    .animation .info_area { animation-delay: 0.5s; animation-duration: 3s; animation-name: fadeInLeft; width: 100%; padding: 36px 43px 20px 43px; height: 100%;  border: 2px solid rgb(240, 20, 134); background: linear-gradient(45deg, rgb(101, 71, 23), rgb(78, 5, 65)); border-radius: 25px; line-height: 1.6; letter-spacing: 0.5px; margin-top: 5rem;}
-    .animation .info_area .info_list:before { width: 0;}
-    .animation .info_area .info_list { display: none;}
-    .animation .info_area .info_list_mobile { display: block; font-size: 24px;}
-    .animation .info_area .info_list_mobile p { text-shadow: 2px 2px 3px gray; font-family: 'LeferiPoint-WhiteObliqueA'; font-size: 14px;}
-    .animation .info_area .info_list_mobile li:last-child p { text-shadow: 2px 2px 3px gray; font-family: 'LeferiPoint-WhiteObliqueA'; font-size: 37px; margin-top: 17rem;}
-    .animation .info_area .info_list li p { font-weight: 300;}
-
-    .ani_footer { position: relative; width: 100%; height: 25%; overflow: hidden; z-index:2; animation-delay: 0.5s; animation-duration: 3s; animation-name: fadeInLeft;}
-    .ani_footer h2 { font-size: 100px; color: #fff; text-shadow: 3px 3px 5px gray; }
+    .animation { display: none;}
 
     /* project slide */
     .project { display: none;}
@@ -332,7 +321,7 @@ body { background: #ccc; }
     /* footer table contents */
     .footer_mobile_tbcont { display: block;}
     .footer_mobile_tbcont { font-size: 10px; font-weight: 300; letter-spacing: 0;}
-    .footer_mobile_tbcont .ws { padding: 72px 15px 0 15px;}
+    .footer_mobile_tbcont .ws { padding: 30px 15px 0 15px;}
     .footer_mobile_tbcont .ws ul { border-bottom: 1px solid #DEDEDE; text-align: left; }
     .footer_mobile_tbcont .ws ul:last-child{border: none;}
     .footer_mobile_tbcont .ws ul li { display: inline-block; padding: 12px 0 12px 14px;}
@@ -355,7 +344,7 @@ body { background: #ccc; }
     .footer_fix.mobile .ws div:last-child { margin: 0; }
     .footer_fix.mobile h5 { font-size: 8px; color: #999999; font-weight: 300; }
     .footer_fix.mobile ul { display: flex; justify-content: flex-start; flex-wrap: nowrap; font-size: 8px; font-weight: 300;}
-    .footer_fix.mobile ul li { padding-left: 24px;}
+    .footer_fix.mobile ul li { padding-left: 14px;}
     .footer_fix.mobile ul li b { padding-right: 4px;}
     .footer_fix.mobile ul li:first-child{ padding: 0;}
     .footer_fix li:before { display: none;}    
