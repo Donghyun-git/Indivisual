@@ -30,6 +30,7 @@ body { background: #ccc; }
 
 /* lottie */
 .lottie { margin-top: -24px; width: 320px; height: 140px; }
+#main_mobile { display: none;}
 
 /* list */
 .list_tit { text-align: left; color: #fff;}
@@ -39,6 +40,7 @@ body { background: #ccc; }
 .list li h3 { padding: 10px;}
 
 /* main slide */
+
 .main_tit { display: flex; justify-content: flex-start; margin-left: 14vw; padding: 10px 0;}
 .main_cont { float: right; margin-top: 259px;}
 .main_cont p { font-size: 14px; font-weight: 300; text-align: right; }
@@ -209,6 +211,10 @@ body { background: #ccc; }
     .main_tit { padding: 20px 0; margin-left: 20px;}
     .visual_logo { font-size: 36px; font-weight: bold;}
     .indi_logo { font-size: 36px; font-weight: bold;}
+    .main_tit { display: flex; justify-content: flex-start; margin-left: 14vw; padding: 10px 0;}
+    .main_cont { margin-top: 159px;}
+    .main_cont p { font-size: 10px;  }
+    .main_cont h5 { font-size: 24px; margin-top: 22px;}
 
     /* info */
     .header_tit { position: relative; margin-top: 125px; z-index: 100; }
@@ -224,6 +230,8 @@ body { background: #ccc; }
         background: linear-gradient(to top, #FF1FA5, #FFBE4B);
         z-index: -1;
     }
+    #main_pc { display: none;}
+    #main_mobile { display: block;}
     #section .info { font-size: 10px; text-align: center; color: #fff; }
     #footer h3 { position: absolute; bottom: 0; font-weight: 500; color: #fff; font-size: 64px; text-align: left; width: 345px; }
     #footer h3:before {
