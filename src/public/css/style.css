@@ -27,6 +27,7 @@ body { background: #ccc; }
 
 /* 모바일 디스플레이 */
 #header, #section, #footer { display: none; }
+
 /* lottie */
 .lottie { margin-top: -24px; width: 320px; height: 140px; }
 
@@ -39,9 +40,11 @@ body { background: #ccc; }
 
 /* main slide */
 .main_tit { display: flex; justify-content: flex-start; margin-left: 14vw; padding: 10px 0;}
-
+.main_cont { float: right; margin-top: 259px;}
+.main_cont p { font-size: 14px; font-weight: 300; text-align: right; }
+.main_cont h5 { font-size: 28px; font-weight: 400; text-align: right; margin-top: 22px;}
 /* animation slide */
-
+.wrap.slide2 { display: none;}
 
 
 /* Project_slide*/
@@ -247,6 +250,7 @@ body { background: #ccc; }
 
     /* animation slide */
     #background, #background_btm { display: none;}
+    .wrap.slide2 { display: block;}
 
     .animation { display: none;}
 
