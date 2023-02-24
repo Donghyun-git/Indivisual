@@ -41,30 +41,7 @@ body { background: #ccc; }
 .main_tit { display: flex; justify-content: flex-start; margin-left: 14vw; padding: 10px 0;}
 
 /* animation slide */
-.animation { color: #fff; display: flex; height: 75%; z-index: 1;}
- #ani_tit {  z-index:1; font-size: 30px; animation-delay: 0.5s; animation-duration: 3s; animation-name: fadeInRight;}
- #ani_tit .ani_logo { z-index: 10; font-size: 9vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;   font-weight: 700;}
- #ani_tit .ani_logo.indi { color: #fff;}
- #ani_tit .ani_logo.visual { color: #ffbe4b; }
 
-
-.animation .info_area { width: 35%}
-.animation .info_area .info_list { position: relative; margin-top: 20rem; display: flex; flex-direction: column; justify-content: space-between; height: 35%; text-align: right;}
-.info_list_mobile { display: none;}
-.animation .info_area .info_list:before {
-    content: "";
-    width: 200rem;
-    height: 2px;
-    background-color: rgb(255, 157, 0);
-    position: absolute; 
-    top: -1px;
-    left: 82px;
-}
-.animation .info_area .info_list li p { font-weight: 300;}
-.animation .info_area .info_list li:last-child p { position: relative; font-size: 30px; font-weight: 500; font-family: 'LeferiPoint-WhiteObliqueA';}
-
-.ani_footer { position: relative; width: 100%; height: 25%; overflow: hidden; z-index:2; animation-delay: 0.5s; animation-duration: 3s; animation-name: fadeInLeft;}
-.ani_footer h2 { font-size: 100px; color: #fff; text-shadow: 3px 3px 5px gray; }
 
 
 /* Project_slide*/

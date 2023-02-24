@@ -16,35 +16,17 @@
     <div class="swiper-wrapper">
 
       <!-- layout1 -->
-      <div class="swiper-slide" id="media" style="background:#000;">
-        <div id="wrap" style="overflow: hidden; position: relative;">
-          <div class="main_tit" style="position: absolute; top:0; left: 0;">
-            <span class="indi_logo">INDI:</span><span class="visual_logo">VISUAL</span>
-          </div>
-         <video style="width: 100%; height: 100%; object-fit: cover;" muted autoplay loop>
-          <source src="img/fire.mp4" type="video/mp4">
-        </video>      
-       </div>
+      <div class="swiper-slide" id="media" style="position:relative; background:#AE7520da;">
+        <div class="main_tit" style="position: absolute; top:0; left: 0; z-index: 10;">
+          <span class="indi_logo">INDI:</span><span class="visual_logo">VISUAL</span>
+        </div>
+        <lottie-player id="background" style="position: absolute; top:0; left: 0;  height: 100%; " src="json/1slide.json" background="transparent" speed="1" loop autoplay></lottie-player>
       </div>
 
     <!-- layout2 animation-->
     <div class="swiper-slide" style="position:relative; background:rgb(29, 29, 29);">
-      <!-- <lottie-player id="background" style="position: absolute; width: 100%; height: 100%; z-index: 1;" src="json/page2.json" background="transparent" speed="0.7" autoplay></lottie-player> -->
-      <lottie-player id="background_btm" style=" position: absolute; top: 150px; width: 100%; height: 100%; z-index: 1;" src="json/tryitnow.json" background="transparent" speed="0.4" loop autoplay></lottie-player>  
       <div id="wrap">
-        <div class="animation">
-              <h1 id="ani_tit"><span class="ani_logo indi">INDI:</span><span class="ani_logo visual">VISUAL</span></h1>
-            <div class="info_area">
-              <ul class="info_list">
-                <li><p>독립되었다는 뜻의 "INDIE"와 시각을 뜻하는 "VISUAL"을 합치며 "INDIVISUAL"의 개성있다는 의미와 동음어로 각각의 개성이 모여 시각적으로 표현된다는 의미를 담았습니다.</p></li>
-                <li><p>개인, 협력 <br> 그리고 도전</p></li>
-              </ul>
-              <ul class="info_list_mobile">
-                <li><p>독립되었다는 뜻의 "INDIE"와 시각을 뜻하는 "VISUAL"을 합치며 "INDIVISUAL"의 개성있다는 의미와 동음어로 각각의 개성이 모여 시각적으로 표현된다는 의미를 담았습니다.</p></li>
-                <li><p>개인, 협력 <br> 그리고 도전</p></li>
-              </ul>
-               </div>
-            </div> 
+       
 
             <!-- mobile -->
             <div id="header">
